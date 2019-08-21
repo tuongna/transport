@@ -13,7 +13,7 @@
 			$("head").append($('<link rel="stylesheet">').attr("href", "http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css"));
 			$("head").append($('<script />').attr("src", "http://code.jquery.com/ui/1.11.1/jquery-ui.js"));
 
-			$("head").append($('<link rel="stylesheet/less">').attr("href", "assets/js/theme-option/style-switcher/assets/css/skin.less"));
+			$("head").append($('<link rel="stylesheet/less">').attr("href", "assets/css/skin.less"));
 
 			$.getScript("assets/js/theme-option/style-switcher/assets/js/less.js", function(data, textStatus, jqxhr) {
 				$.getScript("assets/js/theme-option/style-switcher/assets/js/jquery.easing.js", function(data, textStatus, jqxhr) {
